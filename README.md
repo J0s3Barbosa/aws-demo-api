@@ -66,7 +66,9 @@ Let's get you started !
 Before you dive in, ensure you have the following installed:
 
 - [.NET Core 7 SDK](https://dotnet.microsoft.com/download/dotnet/7.0)
-- [Angular CLI](https://angular.io/guide/setup-local)
+- [NodeJS](https://nodejs.org/en)
+- [react](https://react.dev/learn)
+- [nextjs](https://nextjs.org/docs/getting-started/installation)
 
 ### Installation
 
@@ -77,19 +79,22 @@ Before you dive in, ensure you have the following installed:
    ```
 2. Set up the backend:
   ```bash
-cd Backend
-dotnet restore
-dotnet build
-dotnet run
+    cd Backend
+    dotnet restore
+    dotnet build
+    dotnet run
    ```
 
 3. Set up the frontend:
 
   ```bash
-cd Frontend
-npm install
-ng serve
+    cd Frontend
+    npm install
+    npm start
    ```
 
-
+4. Run tests:
+  ```bash
+    dotnet test
+   ```
 
